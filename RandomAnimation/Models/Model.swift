@@ -25,7 +25,7 @@ struct Animation {
     }
 }
 
-enum AnimationPreset: String, CaseIterable {
+private enum AnimationPreset: String, CaseIterable {
     case slideLeft
     case slideRight
     case slideDown
@@ -55,7 +55,7 @@ enum AnimationPreset: String, CaseIterable {
     case swing
 }
 
-enum AnimationCurve: String, CaseIterable {
+private enum AnimationCurve: String, CaseIterable {
     case easeIn
     case easeOut
     case easeInOut
